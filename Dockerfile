@@ -15,4 +15,4 @@ libopencv-dev curl
 RUN pip install --upgrade pip
 
 # Deps for face recognition
-RUN pip install dlib==19.21.0 opencv-python==4.4.0.44 tensorflow-cpu==2.3.1 numpy==1.18.5
+RUN pip install dlib==19.21.0 opencv-python==4.4.0.44 tensorflow-cpu==2.3.1 numpy==1.18.5 face-recognition-models
